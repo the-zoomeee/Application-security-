@@ -6,6 +6,7 @@ Introduction :- A masquerade attack refers to a cyber attack where an attacker i
 
 <h2>Note:- please first read all the instructions carefully and then perform every single instruction one by one...........</h2>
 Process ----------------------------
+
 1. Create Pycharm project.
 2. Copy all the files in /.venv/ folder
 3. Download Wireshark (https://www.wireshark.org/download.html)
@@ -17,7 +18,7 @@ Process ----------------------------
 7. when new_server and new_client connected successfully try to send messages
    from client to server and from server to client
 
-   # output shold look like that
+   # output should look like that
    ###>  new_server.py
    C:\Users\manju\PycharmProjects\pythonProject5\.venv\Scripts\python.exe C:\Users\manju\OneDrive\Desktop\pythonProject5\.venv\new_server.py 
 Server listening...
