@@ -68,15 +68,16 @@ Client message:
 9. if do not find the port in the console (port= 12345) then try "tcp.port == 12345 || tcp.port == 12345" in filter.
 10. now find like "2494 16.292802     127.0.0.1     127.0.0.1    TCP    495 12345 -> 63766  [PSH, ACK]  Seq=1 Ack= 452 Win=2619648 Len=451"
     there will 2 which will look like this but double click the the one which have keywords "[PSH, ACK] and Len=451" in it.
-11. after navigate to the DATA, you will find how number like "41 42 43 44 45" and some random characters (public key)
-12. right click on the characters and click the (....printable text)
+    ![Screenshot 2024-03-24 141417](https://github.com/the-zoomeee/Application-security-/assets/154297263/db0a40bb-6d82-448d-a5ef-8e3dfba367aa)
+12. after navigate to the DATA, you will find how number like "41 42 43 44 45" and some random characters (public key)
+13. right click on the characters and click the (....printable text)
 
 
     #### now till now you have completed the process of tapping targets device and capturing the server's public key which will help to send messages from fake client
-13. now open the Hacked.pem and past the key in propar format (for you we have already done this process).
-14. now simply terminate the new_client.py file using button to the left side of the terminal (square like button)
-15. now run the fake_client.py file.
-16. now you can able to send messages from fake client and it will proceed by server as valid client
+14. now open the Hacked.pem and past the key in propar format (for you we have already done this process).
+15. now simply terminate the new_client.py file using button to the left side of the terminal (square like button)
+16. now run the fake_client.py file.
+17. now you can able to send messages from fake client and it will proceed by server as valid client
 
 
     ### hance we reached to our goal......................
