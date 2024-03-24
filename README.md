@@ -67,7 +67,7 @@ Client message:
 8. now check the Wireshark console, you would notice there is the sharing of key between server and client when server and client successfully established the connection.
 9. if do not find the port in the console (port= 12345) then try "tcp.port == 12345 || tcp.port == 12345" in filter.
 10. now find like "2494 16.292802     127.0.0.1     127.0.0.1    TCP    495 12345 -> 63766  [PSH, ACK]  Seq=1 Ack= 452 Win=2619648 Len=451"
-    there will 2 which will look like this but double click the the one which have keywords "[PSH, ACK] and Len=451" in it.
+    there will 2 which will look like this but double click the the one which have keywords "[PSH, ACK] and Len=451" in it. remember Ack should not equal to 1.
     ![Screenshot 2024-03-24 141417](https://github.com/the-zoomeee/Application-security-/assets/154297263/db0a40bb-6d82-448d-a5ef-8e3dfba367aa)
 12. after navigate to the DATA, you will find how number like "41 42 43 44 45" and some random characters (public key)
 13. right click on the characters and click the (....printable text)
